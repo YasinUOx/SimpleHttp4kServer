@@ -8,7 +8,7 @@ class AnswererTest {
     @Test
     fun `can answer name`() {
         val contents = Answerer().answerFor("What is your name?")
-        assertThat(contents, equalTo("John"))
+        assertThat(contents, equalTo("Yasin"))
     }
 
     @Test
